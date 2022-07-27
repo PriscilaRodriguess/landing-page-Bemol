@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    
     <title>Projeto Be/Dev</title>
 </head>
 <body>
   <header>
-     <img 
+     <img class="logoBemol"
        src="./img/ContaBemol-b 1.png" 
        alt="logo Conta Bemol Cabeçalho">
   </header>  
   <main>
     <div>
         <!--PRIMEIRA SECÇÃO-->
-         <section>
+         <section class="firstSection flexRow" >
             <div>
                 <h1>Chegou a conta digital da Bemol</h1>
                 <p>Chegou a conta digital da Bemol Pague parcelas Bemol pelo celular, deposite nas Lojas Bemol, Bemol Farma, Mercado Bemol e acumule muitos pontos de bônus! Abra sua Conta Bemol</p>
-                <a href="https://www.bemol.com.br/contabemol" target="_blank">Abra a sua Conta na Bemol</a>
+                <a class="linkAbrirConta" 
+                   href="https://www.bemol.com.br/contabemol" 
+                   target="_blank">Abra a sua Conta na Bemol</a>
             </div>
 
             <div>
@@ -29,42 +40,42 @@
             </div>
          </section>
         <!--SEGUNDA SECÇÃO-->
-         <section>
+         <section class="secondSection">
             <h6>A Conta Bemol é a conta digital que traz 
                 benefícios exclusivos para o cliente Bemol.
             </h6>
-            <div>
-                <img
+            <div class="flexRow">
+                <img class="reginaImg"
                 src="./img/Regina1.png"
                 alt="Dona Regina mexendo no celular">
                 
-                <div>
-                    <div>
+                <div class="flexRow cardVantagens">
+                    <div class="miniCard">
                         <img src="./img/Vantagens01.png"
                         alt="Estrelinha bemol">
                            <span>Acúmulo de pontos de bônus</span>
                     </div>
-                    <div>
+                    <div class="miniCard">
                         <img src="./img/Vantagens02.png"
                         alt="Estrelinha bemol">
                            <span>Atendimento nas Lojas</span>
                     </div>
-                    <div>
+                    <div class="miniCard">
                         <img src="./img/Vantagens03.png"
                         alt="estrelinha bemol">
                         <spam>Pagamento de parcelas Bemol</spam>
                     </div>
-                    <div>
+                    <div class="miniCard">
                         <img src="./img/Vantagens04.png"
                         alt="estrelinha bemol">
                         <spam>Depósito nas lojas Bemol e Bemol farma</spam>
                     </div>
-                    <div>
+                    <div class="miniCard">
                         <img src="./img/Vantagens05.png"
                         alt="estrelinha bemol">
                         <spam>Zero anuidade</spam>
                     </div>
-                    <div>
+                    <div class="miniCard">
                         <img src="./img/Vantagens06.png"
                         alt="estrelinha bemol">
                         <spam>Transferencias via PIX</spam>
@@ -74,12 +85,12 @@
 
          </section>
         <!--TERCEIRA SECÇÃO-->
-         <section>
-            <div>
+         <section class="thirdSection flexRow">
+            <div class="thirdSectionTitle">
                 <img
                 src="./img/Estrela Titulo.png" alt="Estrela Bemol">
             </div>
-            <div>
+            <div class="thirdSectionDescription">
                 <p>Com saldo em conta, você acumula pontos de bônus Bemol todos os dias</p>
                 <img 
                  src="./img/Acumulo Pontos Bonus.png" 
